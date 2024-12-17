@@ -1,0 +1,26 @@
+{
+  "name": "task-manager-backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "prod": "NODE_ENV=production bun run --hot src/index.ts",
+    "dev": "NODE_ENV=development bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "hono": "^4.4.6",
+    "hono-rate-limiter": "^0.4.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "redis": "4.6.13",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+export { checkVKLaunchParams } from "./checkVKLaunchParams";
